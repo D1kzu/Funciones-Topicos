@@ -1,0 +1,5 @@
+1|Hierros SA|150|2024-06-15
+2|Aceros SRL|100|2024-06-10
+4|FerroMetal|50|2024-06-20
+5|Inducom|400|2024-06-05
+6|Aceros SRL|200|2024-06-01

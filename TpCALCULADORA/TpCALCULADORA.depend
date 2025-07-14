@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1748396270 source:c:\users\usuario\documents\topicos\tpcalculadora\tpcalculadora.c
+
+1748397452 source:c:\users\usuario\documents\topicos\tpcalculadora\main.c
+	"Graf.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1748395320 c:\users\usuario\documents\topicos\tpcalculadora\tpcalculadora.h
+
+1748395423 source:c:\users\usuario\documents\topicos\tpcalculadora\tinyexpr.c
+	"tinyexpr.h"
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<limits.h>
+
+1748395523 c:\users\usuario\documents\topicos\tpcalculadora\tinyexpr.h
+
+1748397475 source:c:\users\usuario\documents\topicos\tpcalculadora\graf.c
+	"Graf.h"
+
+1748397199 c:\users\usuario\documents\topicos\tpcalculadora\graf.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+

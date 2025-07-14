@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1752445254 source:c:\users\usuario\documents\topicos\tda_vector\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TDA_Vector.h"
+
+1752445125 source:c:\users\usuario\documents\topicos\tda_vector\tda_vector.c
+	"TDA_Vector.h"
+
+1752445163 c:\users\usuario\documents\topicos\tda_vector\tda_vector.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1752204115 source:c:\users\usuario\documents\topicos\vectores_5\vectores\vectores.c
+	<stdio.h>
+	<stdlib.h>
+	"vectores.h"
+
+1745191385 c:\users\usuario\documents\topicos\vectores_5\vectores\vectores.h
+
+1752204191 source:c:\users\usuario\documents\topicos\vectores\main.c
+	"vectores.h"
+	<stdlib.h>
+
+1752204115 c:\users\usuario\documents\topicos\vectores\vectores.h
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1751850625 source:c:\users\usuario\documents\topicos\recursividad\main.c
+	<stdio.h>
+	<stdlib.h>
+	"recursividad.h"
+
+1751850668 source:c:\users\usuario\documents\topicos\recursividad\recursividad.c
+	"recursividad.h"
+
+1751842428 c:\users\usuario\documents\topicos\recursividad\recursividad.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+

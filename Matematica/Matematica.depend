@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1744226264 source:c:\users\usuario\documents\tópicos\matematica\matematica.c
+	"matematica.h"
+
+1744226149 c:\users\usuario\documents\tópicos\matematica\matematica.h
+	<stdio.h>
+	<stdlib.h>
+
+1744226873 source:c:\users\usuario\documents\tópicos\matematica\main.c
+	"matematica.h"
+
+1744315383 source:c:\users\usuario\documents\topicos\matematica\main.c
+	"matematica.h"
+
+1744315178 c:\users\usuario\documents\topicos\matematica\matematica.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1744315397 source:c:\users\usuario\documents\topicos\matematica\matematica.c
+	"matematica.h"
+

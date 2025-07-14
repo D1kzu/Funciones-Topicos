@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1750202993 source:c:\users\usuario\documents\topicos\cadenas\main.c
+	"cadenas.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1748476858 source:c:\users\usuario\documents\topicos\cadenas\cadenas.c
+	"cadenas.h"
+
+1747581592 c:\users\usuario\documents\topicos\cadenas\cadenas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1752000219 source:c:\users\usuario\documents\topicos\fungenericas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"FunGenericas.h"
+
+1752000086 source:c:\users\usuario\documents\topicos\fungenericas\fungenericas.c
+	"FunGenericas.h"
+
+1751999576 c:\users\usuario\documents\topicos\fungenericas\fungenericas.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

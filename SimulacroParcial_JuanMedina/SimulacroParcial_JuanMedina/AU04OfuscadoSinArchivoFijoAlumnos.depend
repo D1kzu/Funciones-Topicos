@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1746124583 source:d:\git\programacion\exams\autocorregibleofuscadosinarchivosfijo\examen\main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+
+1746123788 d:\git\programacion\exams\autocorregibleofuscadosinarchivosfijo\examen\examen.h
+
+1746124196 source:d:\git\programacion\exams\autocorregibleofuscadosinarchivosfijo\examen\examen.c
+	<stdlib.h>
+
+1746124196 source:d:\temporal\examen.c
+	<stdlib.h>
+
+1746124583 source:d:\temporal\main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+
+1746123788 d:\temporal\examen.h
+
+1747327510 source:c:\users\administrator\desktop\topicos\simulacroparcial_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+
+1747327776 c:\users\administrator\desktop\topicos\simulacroparcial_2\examen.h
+	<stddef.h>
+
+1747327727 source:c:\users\administrator\desktop\topicos\simulacroparcial_2\examen.c
+	"examen.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1747327727 source:c:\users\usuario\documents\topicos\simulacroparcial_juanmedina\simulacroparcial_juanmedina\examen.c
+	"examen.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1747327776 c:\users\usuario\documents\topicos\simulacroparcial_juanmedina\simulacroparcial_juanmedina\examen.h
+	<stddef.h>
+
+1747327805 source:c:\users\usuario\documents\topicos\simulacroparcial_juanmedina\simulacroparcial_juanmedina\main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+

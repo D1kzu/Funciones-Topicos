@@ -1,0 +1,5 @@
+10Lionel    Messi          225.00
+12Luis      Suarez         300.00
+14Equi      Fernandez      500.00
+15Enzo      Fernandez      525.00
+16Antonio   Antonio        100.00

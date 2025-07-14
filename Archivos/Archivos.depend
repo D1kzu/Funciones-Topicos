@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1750201758 source:c:\users\usuario\documents\topicos\archivos\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Archivos.h"
+
+1750202993 source:c:\users\usuario\documents\topicos\archivos\archivos.c
+	"Archivos.h"
+
+1750201773 c:\users\usuario\documents\topicos\archivos\archivos.h
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	<string.h>
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1752006024 source:c:\users\usuario\documents\topicos\memoriadinamica\main.c
+	"MemoriaDinamica.h"
+
+1752006467 source:c:\users\usuario\documents\topicos\memoriadinamica\memoriadinamica.c
+	"MemoriaDinamica.h"
+
+1752005490 c:\users\usuario\documents\topicos\memoriadinamica\memoriadinamica.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+

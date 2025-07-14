@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1750370302 source:c:\users\usuario\documents\topicos\ejerciciopreparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"PreParcial.h"
+
+1750370280 source:c:\users\usuario\documents\topicos\ejerciciopreparcial\preparcial.c
+	"PreParcial.h"
+
+1750274480 c:\users\usuario\documents\topicos\ejerciciopreparcial\preparcial.h
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

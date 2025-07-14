@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1752107394 source:c:\users\usuario\documents\topicos\merge-pre-recu\merge-pre-recuperatorio\main.c
+	"cabeceras.h"
+
+1752157218 source:c:\users\usuario\documents\topicos\merge-pre-recu\merge-pre-recuperatorio\cabeceras.c
+	"cabeceras.h"
+
+1752108561 c:\users\usuario\documents\topicos\merge-pre-recu\merge-pre-recuperatorio\cabeceras.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
