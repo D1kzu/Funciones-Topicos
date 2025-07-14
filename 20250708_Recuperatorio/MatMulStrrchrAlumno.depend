@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1751898110 source:d:\git\programacion\exams\multmatrstrrchr\examen.c
+	<stdio.h>
+	"examen.h"
+
+1751499495 d:\git\programacion\libs\matrices.h
+
+1751898322 source:d:\git\programacion\exams\multmatrstrrchr\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Examen.h"
+
+1751897377 d:\git\programacion\exams\multmatrstrrchr\examen.h
+
+1751898110 source:d:\temporal\entregable\examen.c
+	<stdio.h>
+	"examen.h"
+
+1751897377 d:\temporal\entregable\examen.h
+
+1751898322 source:d:\temporal\entregable\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Examen.h"
+
+1751898110 source:c:\users\laboratorios.unlmlab\desktop\20250708_recuperatorio\examen.c
+	<stdio.h>
+	"examen.h"
+
+1751993423 c:\users\laboratorios.unlmlab\desktop\20250708_recuperatorio\examen.h
+
+1751993431 source:c:\users\laboratorios.unlmlab\desktop\20250708_recuperatorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Examen.h"
+
+1752021948 source:c:\users\usuario\documents\20250708_recuperatorio\examen.c
+	<stdio.h>
+	"examen.h"
+
+1752009450 c:\users\usuario\documents\20250708_recuperatorio\examen.h
+
+1752020378 source:c:\users\usuario\documents\20250708_recuperatorio\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Examen.h"
+

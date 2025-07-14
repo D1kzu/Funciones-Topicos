@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1751931272 source:c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\jaimegarcia_agustinjaime-46556015-r\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1751996353 c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\jaimegarcia_agustinjaime-46556015-r\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1751932000 source:c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\jaimegarcia_agustinjaime-46556015-r\funciones.c
+	"funciones.h"
+
+1752094241 source:c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\jaimegarcia_agustinjaime-46556015-r\funcionesagustin.c
+	"funciones.h"
+
+1752094158 source:c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\jaimegarcia_agustinjaime-46556015-r\mainagustin.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+

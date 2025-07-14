@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1749820292 source:d:\git\programacion\exams\bbinariaarchivos\entregable\examen.c
+	<stdio.h>
+
+1750766104 source:d:\git\programacion\exams\bbinariaarchivos\entregable\main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+
+1749820140 d:\git\programacion\exams\bbinariaarchivos\entregable\examen.h
+
+1749820292 source:d:\temporal\entregable\examen.c
+	<stdio.h>
+
+1750766104 source:d:\temporal\entregable\main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+
+1749820140 d:\temporal\entregable\examen.h
+
+1752097848 source:c:\users\usuario\documents\entregableparcial20250624_1[1]\main.c
+	<stdio.h>
+	<stdlib.h>
+	"examen.h"
+
+1752097745 c:\users\usuario\documents\entregableparcial20250624_1[1]\examen.h
+
+1752098185 source:c:\users\usuario\documents\entregableparcial20250624_1[1]\examen.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

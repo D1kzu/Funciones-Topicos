@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1700683044 source:c:\users\laboratorios\desktop\recuperatorio\recu\main.c
+	"FnsComplemento.h"
+
+1700682302 source:c:\users\laboratorios\desktop\recuperatorio\recu\fnscomplemento.c
+	"FnsComplemento.h"
+
+1700681857 c:\users\laboratorios\desktop\recuperatorio\recu\fnscomplemento.h
+	<stdlib.h>
+	<stdio.h>
+

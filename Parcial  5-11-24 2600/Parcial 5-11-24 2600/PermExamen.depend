@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1730806960 source:d:\git\programacion\exams\2024-11-05-permutado\permalumno\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gbib.h"
+
+1730381237 d:\git\programacion\exams\2024-11-05-permutado\permalumno\gbib.h
+
+1730381326 source:d:\git\programacion\exams\2024-11-05-permutado\permalumno\gbib.c
+
+1730839384 source:c:\users\laboratorios\desktop\3635-02-2600\gbib.c
+	"gbib.h"
+
+1730839384 c:\users\laboratorios\desktop\3635-02-2600\gbib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1730839049 source:c:\users\laboratorios\desktop\3635-02-2600\main.c
+	<stdio.h>
+	<stdlib.h>
+	"gbib.h"
+
+1750444174 source:c:\users\usuario\documents\parcial  5-11-24 2600\parcial 5-11-24 2600\gbib.c
+	"gbib.h"
+
+1750434260 c:\users\usuario\documents\parcial  5-11-24 2600\parcial 5-11-24 2600\gbib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1750436468 source:c:\users\usuario\documents\parcial  5-11-24 2600\parcial 5-11-24 2600\main.c
+	<stdio.h>
+	<stdlib.h>
+	"mi_gbib.h"
+
+1752262975 c:\users\usuario\documents\parcial  5-11-24 2600\parcial 5-11-24 2600\mi_gbib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1752262875 source:c:\users\usuario\documents\parcial  5-11-24 2600\parcial 5-11-24 2600\mi_gbib.c
+	"mi_gbib.h"
+

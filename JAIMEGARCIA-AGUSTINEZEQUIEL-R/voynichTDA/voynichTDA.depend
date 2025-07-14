@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1752090766 source:c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\voynichtda\cabeceras.c
+	"cabeceras.h"
+
+1752080337 source:c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\voynichtda\main.c
+	<stdio.h>
+	<stdlib.h>
+	"cabeceras.h"
+
+1752090741 c:\users\usuario\documents\jaimegarcia-agustinezequiel-r\voynichtda\cabeceras.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
