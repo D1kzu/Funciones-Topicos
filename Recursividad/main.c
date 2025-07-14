@@ -10,6 +10,13 @@ int cmpINT(const void* c1,const void* c2)
     return  *e1-*e2; /// HACE (VEC+MEDIO)-BUSCADO
 
 }
+int MostrarEjemplo(void* v)
+{
+    Tejemplo* aux=(Tejemplo*)v;
+
+    printf("\n%s  %d  %lf",aux->nom,aux->cod,aux->sueldo);
+    return 0;
+}
 int main()
 {
     /*int vec[10]={10,20,30,40,50,60,70,80,90,100};
@@ -20,11 +27,22 @@ int main()
     else
         printf("No se encontro el elemento a buscar");*/
 
-    char cadena[]="aza";
+    ///EJEMPLO RPALINDROMO
+    /*char cadena[]="aza";
     char* fin=cadena+strlen(cadena);
     if(Rpalindromo(cadena,fin)!=0)
         printf("LA CADENA ES PALINDROMO");
     else
-        printf("LA CADENA NO ES PALINDROMO");
+        printf("LA CADENA NO ES PALINDROMO");*/
+
+    ///EJEMPLO RMAP
+    /*Tejemplo dato[TAM_BASE]={{"Agustin",3,239.99},{"Jose Maita",10,340.95},{"Jorge",1,5000},{"Natalia",11,329.31},{"Cecilia",2,999}};
+
+    Rmap(dato,TAM_BASE,sizeof(Tejemplo),MostrarEjemplo);
+    */
+
+    char cadena[]="azazrm";
+    printf("%s",Rstrrchr(cadena,'a'));
+
     return 0;
 }

@@ -4,6 +4,13 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
+#define TAM_BASE 5
+typedef struct
+{
+    char nom[20];
+    int cod;
+    double sueldo;
+}Tejemplo;
 int Rfactorial(int num);
 int Rstrlen(const char* cadena);
 char* Rstrchr(const char* cadena,int buscado);

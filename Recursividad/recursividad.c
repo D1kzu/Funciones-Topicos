@@ -75,3 +75,13 @@ int Rpalindromo(char* inicio,char* fin)
     }
     return 0;
 }
+
+void Rmap(void* vec,size_t ce,size_t tam,int accion(void*))
+{
+    if(ce>0)
+    {
+        accion(vec);
+        return Rmap(vec+tam,ce-1,tam,accion);
+    }
+    return;
+}
