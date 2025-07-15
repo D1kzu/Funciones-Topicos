@@ -1,6 +1,6 @@
 #include "recursividad.h"
 #define ES_LETRA(x) (x>96 && x<123)?1:0
-
+#define ES_NUMERO(x) (x>47 && x<58)?1:-1
 int Rfactorial(int num)
 {
 
@@ -86,7 +86,7 @@ void Rmap(void* vec,size_t ce,size_t tam,int accion(void*))
     return;
 }
 
-void RmapInverso(void* vec,size_t ce,size_t tam,int accion(void*) )
+void RmapInverso(void* vec,size_t ce,size_t tam,void accion(void*) )
 {
     if(ce>1)
         RmapInverso(vec+tam,ce-1,tam,accion);
@@ -95,7 +95,31 @@ void RmapInverso(void* vec,size_t ce,size_t tam,int accion(void*) )
 }
 
 
-int Rsumadigitos(char* vec,size_t ce)
+int Rsumadigitos(char* vec)
 {
+    //int aux=*vec;
+    char caracter=*vec;
+    if(*vec=='\0')
+        return 0;
+    if(caracter<47 || caracter>58 )
+        return Rsumadigitos(vec+1);
+    return caracter + Rsumadigitos(vec+1);
+}
+
+
+int RsumayMostrarInverso(int* vec,size_t ce,void accion(void*))
+{
+    if(ce>0)
+        {
+            if(*vec%2==0)
+                return *vec + RsumayMostrarInverso(vec+1,ce-1,accion);
+            else
+                return RsumayMostrarInverso(vec+1,ce-1,accion);
+        }
+    else
+    {
+        RmapInverso(vec-5,5,4,accion);
+        return 0;
+    }
 
 }

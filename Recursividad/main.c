@@ -10,12 +10,9 @@ int cmpINT(const void* c1,const void* c2)
     return  *e1-*e2; /// HACE (VEC+MEDIO)-BUSCADO
 
 }
-int MostrarEjemplo(void* v)
+void MostrarEjemplo(void* v)
 {
-    char aux=*(char*)v;
-
-    printf("%c",aux);
-    return 0;
+    printf("%d",*(int*)v);
 }
 int main()
 {
@@ -45,9 +42,14 @@ int main()
     printf("%s",Rstrrchr(cadena,'a'));
     */
     ///EJEMPLO RMAPINVERSO
-    char aux[]="es palindromo";
+    /*char aux[]="es palindromo";
     //Tejemplo dato[TAM_BASE]={{"Agustin",3,239.99},{"Jose Maita",10,340.95},{"Jorge",1,5000},{"Natalia",11,329.31},{"Cecilia",2,999}};
-    RmapInverso(aux,Rstrlen(aux)+1,sizeof(char),MostrarEjemplo);
-
+    RmapInverso(aux,Rstrlen(aux)+1,sizeof(char),MostrarEjemplo);*/
+    ///EJEMPLO RSUMADIGITOS
+    /*char aux[]="hola mundo";
+    printf("%d",Rsumadigitos(aux));*/
+    ///EJEMPLO RSUMAYMOSTRARINVERSO
+    int vec[5]={1,2,3,4,6};
+    printf("%d",RsumayMostrarInverso(vec,5,MostrarEjemplo));
     return 0;
 }
