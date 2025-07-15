@@ -12,9 +12,9 @@ int cmpINT(const void* c1,const void* c2)
 }
 int MostrarEjemplo(void* v)
 {
-    Tejemplo* aux=(Tejemplo*)v;
+    char aux=*(char*)v;
 
-    printf("\n%s  %d  %lf",aux->nom,aux->cod,aux->sueldo);
+    printf("%c",aux);
     return 0;
 }
 int main()
@@ -37,12 +37,17 @@ int main()
 
     ///EJEMPLO RMAP
     /*Tejemplo dato[TAM_BASE]={{"Agustin",3,239.99},{"Jose Maita",10,340.95},{"Jorge",1,5000},{"Natalia",11,329.31},{"Cecilia",2,999}};
-
-    Rmap(dato,TAM_BASE,sizeof(Tejemplo),MostrarEjemplo);
+    char aux[]="cadena auxiliar";
+    Rmap(aux,1,Rstrlen(aux),MostrarEjemplo);
     */
-
-    char cadena[]="azazrm";
+    ///EJEMPLO RSTRRCHR
+    /*char cadena[]="azazrm";
     printf("%s",Rstrrchr(cadena,'a'));
+    */
+    ///EJEMPLO RMAPINVERSO
+    char aux[]="es palindromo";
+    //Tejemplo dato[TAM_BASE]={{"Agustin",3,239.99},{"Jose Maita",10,340.95},{"Jorge",1,5000},{"Natalia",11,329.31},{"Cecilia",2,999}};
+    RmapInverso(aux,Rstrlen(aux)+1,sizeof(char),MostrarEjemplo);
 
     return 0;
 }

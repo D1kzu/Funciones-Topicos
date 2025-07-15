@@ -85,3 +85,17 @@ void Rmap(void* vec,size_t ce,size_t tam,int accion(void*))
     }
     return;
 }
+
+void RmapInverso(void* vec,size_t ce,size_t tam,int accion(void*) )
+{
+    if(ce>1)
+        RmapInverso(vec+tam,ce-1,tam,accion);
+
+    accion(vec);
+}
+
+
+int Rsumadigitos(char* vec,size_t ce)
+{
+
+}

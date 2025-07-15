@@ -113,3 +113,37 @@ int Identidad(int m[][TAM],int cf,int cc)
     }
     return 1;
 }
+
+void Espiral(int matriz[][TAM],int cf,int cc)
+{
+     int inicioFila = 0,inicioCol = 0,i,k=0,j=1;
+
+    while (inicioFila < cf && inicioCol <cc) {
+        // Recorre de izquierda a derecha
+        for (i = inicioCol; i < cc-k; i++)
+            printf("%d ", matriz[inicioFila][i]);
+        inicioFila++;
+        printf("\n\n");
+        // Recorre de arriba hacia abajo
+        for (i = inicioFila; i <cf-j; i++)
+            printf("%d ", matriz[i][cc-j]);
+        cf--;
+        printf("\n\n");
+        // Recorre de derecha a izquierda
+            for (i = cf; i >= inicioCol; i--)
+                printf("%d ", matriz[cf+k][i]);
+            cf--;
+
+        printf("\n\n");
+        // Recorre de abajo hacia arriba
+        if (inicioCol <cc) {
+            for (i = cf; i >=inicioFila; i--)
+                printf("%d ", matriz[i][inicioCol]);
+            inicioCol++;
+        }
+        printf("\n\n");
+        k++;
+        j++;
+    }
+
+}
