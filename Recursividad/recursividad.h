@@ -21,4 +21,6 @@ void Rmap(void* vec,size_t ce,size_t tam,int accion(void*));
 void RmapInverso(void* vec,size_t ce,size_t tam,void accion(void*) );
 int Rsumadigitos(char* vec);
 int RsumayMostrarInverso(int* vec,size_t ce,void accion(void*));
+char* Rstrstr(const char* cad1,const char* cad2);
+int empiezaCon(const char* cad1, const char* cad2);
 #endif // RECURSIVIDAD_H_INCLUDED

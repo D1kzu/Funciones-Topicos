@@ -73,14 +73,14 @@ int Diagonal(int m[][TAM],int cf,int cc)
         {
             if(m[i][j]!=0 || m[j][i]!=0)
             {
-                return 0;
+                return -1;
 
             }
             else
             {
                 if(m[i][i]==0)
                 {
-                    return 0;
+                    return -1;
                 }
             }
 
@@ -114,36 +114,68 @@ int Identidad(int m[][TAM],int cf,int cc)
     return 1;
 }
 
-void Espiral(int matriz[][TAM],int cf,int cc)
+void Espiral(int m[][TAM],int cf,int cc)
 {
-     int inicioFila = 0,inicioCol = 0,i,k=0,j=1;
+  int inicioFila = 0,inicioCol = 0,i;
 
     while (inicioFila < cf && inicioCol <cc) {
-        // Recorre de izquierda a derecha
-        for (i = inicioCol; i < cc-k; i++)
-            printf("%d ", matriz[inicioFila][i]);
+        // Recorre la fila superior
+        for (i = inicioCol; i <cc; i++)
+            printf("%d ", m[inicioFila][i]);
         inicioFila++;
         printf("\n\n");
-        // Recorre de arriba hacia abajo
-        for (i = inicioFila; i <cf-j; i++)
-            printf("%d ", matriz[i][cc-j]);
-        cf--;
+        // Recorre la columna derecha
+        for (i = inicioFila; i <cf; i++)
+            printf("%d ", m[i][cc-1]);
+        cc--;
         printf("\n\n");
-        // Recorre de derecha a izquierda
-            for (i = cf; i >= inicioCol; i--)
-                printf("%d ", matriz[cf+k][i]);
+        // Recorre la fila inferior (si queda)
+        if (inicioFila < cf) {
+            for (i = cc-1; i >= inicioCol; i--)
+                printf("%d ", m[cf-1][i]);
             cf--;
-
+        }
         printf("\n\n");
-        // Recorre de abajo hacia arriba
+
+        // Recorre la columna izquierda (si queda)
         if (inicioCol <cc) {
-            for (i = cf; i >=inicioFila; i--)
-                printf("%d ", matriz[i][inicioCol]);
+            for (i = cf-1; i >= inicioFila; i--)
+                printf("%d ", m[i][inicioCol]);
             inicioCol++;
         }
         printf("\n\n");
-        k++;
-        j++;
     }
+}
 
+
+int** MatrizDinamicaEnteros(int cf,int cc)
+{
+    int i=0;
+    int** aux=malloc(cf*sizeof(int*));
+    int** ini=aux;
+    if(!aux)
+        return NULL;
+    while(i<cc)
+    {
+        *aux=malloc(cc*sizeof(int));
+        if(!*aux)
+        {
+            DestruirMatrizDinamica(ini,i);
+            printf("\n No se pudo crear matriz");
+            return NULL;
+        }
+        (aux)++;
+        i++;
+    }
+    return ini;
+}
+
+void DestruirMatrizDinamica(int** aux,int cc)
+{
+    while(cc>0)
+    {
+        free(*(aux+cc-1));
+        cc--;
+    }
+    free(aux);
 }

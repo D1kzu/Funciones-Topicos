@@ -12,4 +12,6 @@ void Transpuesta(int m[][TAM],int cf, int cc);
 int Diagonal(int m[][TAM],int cf,int cc);
 int Identidad(int m[][TAM],int cf,int cc);
 void Espiral(int m[][TAM],int cf,int cc);
+int** MatrizDinamicaEnteros(int cf,int cc);
+void DestruirMatrizDinamica(int** aux,int cc);
 #endif // MATRICES_H_INCLUDED

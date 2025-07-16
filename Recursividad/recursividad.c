@@ -123,3 +123,21 @@ int RsumayMostrarInverso(int* vec,size_t ce,void accion(void*))
     }
 
 }
+
+int empiezaCon(const char* cad1, const char* cad2) {
+    if (*cad2 == '\0')
+        return 1;
+    if (*cad1 == '\0' || *cad1 != *cad2)
+        return 0;
+    return empiezaCon(cad1 + 1, cad2 + 1);
+}
+
+char* Rstrstr(const char* cad1, const char* cad2) {
+    if (*cad2 == '\0')  // Subcadena vacía -> retorna cad1
+        return (char*)cad1;
+    if (*cad1 == '\0')  // No hay más para comparar
+        return NULL;
+    if (empiezaCon(cad1, cad2))// Compara toda la cadena si es que son iguales, si no son iguales devuelve 0
+        return (char*)cad1;
+    return Rstrstr(cad1 + 1, cad2);
+}

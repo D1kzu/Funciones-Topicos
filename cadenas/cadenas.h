@@ -8,10 +8,12 @@
 #define ESLETRA(x) (((x)>='a' && (x)<='z')|| ((x)>='A' && (x)<='Z'))?1:0
 int EsPalindromox(const char* s1);
 int mstrcmp(const char* s1,const char* s2);
-int mstrstr(const char* s1,const char* s2);
+char* mstrstr(const char* s1,const char* s2);
 int ProximaPalabra(char* ini,char** cad);
 void MostrarCadena(char* cad, int tam);
 void EliminarEspacio(char** ini);
 void* my_Memmcpy(void* ini,const void* p,size_t cdesp);
 void* my_Memmove(void* destino,const void* orige, size_t cdesp);
+int matoi(const char* cad);
+double matof(const char* cad);
 #endif // CADENAS_H_INCLUDED

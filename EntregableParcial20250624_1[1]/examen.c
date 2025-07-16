@@ -136,3 +136,45 @@ int fbbinariaALUAGUSTIN(void* clave, const char* nomarch, size_t tam, int cmp(co
     fclose(pf);
     return -1;
 }
+///NO SE PUEDE AL FINAL PORQUE ABRIRIA EL ARCHIVO CADA VEZ QUE ENTRA
+int fbbinariaRecursiva(void* clave,const char* nomarch,size_t tam,int cmp(const void*,const void*))
+{
+    FILE* pf=fopen(nomarch,"rb");
+    if(!pf)
+        return -1;
+    void* buffer=malloc(tam);
+    if(!buffer)
+        return -1;
+
+    fseek(pf,tam,0);
+    int ce=ftell(pf);
+    int medio;
+    long int ini=0;
+    long int fin=ce-1;
+    int comparador;
+    while(ini<=fin)
+    {
+        medio=(ini+fin)/2;
+        fseek(pf,medio*tam,0);
+        fread(buffer,tam,1,pf);
+        comparador=cmp(buffer,clave);
+        if(comparador==0)
+            {
+                memcpy(clave,buffer,tam);
+                free(buffer);
+                fclose(pf);
+                return 1;
+            }
+        else
+        {
+            if(comparador>0)
+                fin=medio-1;
+            else
+                ini=medio+1;
+        }
+
+    }
+    free(buffer);
+    fclose(pf);
+    return -1;
+}

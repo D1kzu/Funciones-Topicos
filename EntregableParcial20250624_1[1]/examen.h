@@ -16,4 +16,5 @@ int fbbinaria(void *clave, const char* nomarch, size_t tam, int cmp(const void *
 int fbbinariaALU(void *clave, const char* nomarch, size_t tam, int cmp(const void *, const void *));
 void VERARCHIVO(const char* num);
 int fbbinariaALUAGUSTIN(void* clave, const char* nomarch, size_t tam, int cmp(const void *, const void *));
+int fbbinariaRecursiva(void* clave,const char* nomarch,size_t tam,int cmp(const void*,const void*));
 #endif // EXAMEN_H

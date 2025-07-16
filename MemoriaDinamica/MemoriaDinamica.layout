@@ -2,19 +2,19 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="main.c" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="MemoriaDinamica.h" open="1" top="1" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="549" topLine="0" />
+			<Cursor1 position="154" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="MemoriaDinamica.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.c" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="826" topLine="0" />
+			<Cursor1 position="473" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="MemoriaDinamica.c" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
+	<File name="MemoriaDinamica.c" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="3501" topLine="162" />
+			<Cursor1 position="3501" topLine="155" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

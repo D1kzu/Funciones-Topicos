@@ -49,7 +49,11 @@ int main()
     /*char aux[]="hola mundo";
     printf("%d",Rsumadigitos(aux));*/
     ///EJEMPLO RSUMAYMOSTRARINVERSO
-    int vec[5]={1,2,3,4,6};
-    printf("%d",RsumayMostrarInverso(vec,5,MostrarEjemplo));
+    /*int vec[5]={1,2,3,4,6};
+    printf("%d",RsumayMostrarInverso(vec,5,MostrarEjemplo));*/
+    ///EJEMPLO RSTRSTR
+    char aux[]="hola a";
+    char a[]="la";
+    printf("LA CADENA ES %s",Rstrstr(aux,a));
     return 0;
 }

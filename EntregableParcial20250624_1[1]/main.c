@@ -11,7 +11,7 @@
 #define EXAMEN
 
 #ifdef EXAMEN
-    #define fbbinaria fbbinariaALUAGUSTIN
+    #define fbbinaria fbbinariaRecursiva
 #endif // EXAMEN
 
 typedef struct{
